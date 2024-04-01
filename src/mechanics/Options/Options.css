@@ -1,0 +1,29 @@
+.options{
+    display: flex;
+}
+
+.option__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    width: 315.35px;
+    height: 355px;
+    border: 1px solid black;
+    transition: 150ms;
+}
+
+.option__container:not(:last-child){
+    margin-right: 75px;
+}
+
+.option__container p{
+    font-weight: 600;
+}
+
+.option__container:hover{
+    border: 0px;
+    box-shadow: inset 0px 0px 0px 10px #FFB800;
+}

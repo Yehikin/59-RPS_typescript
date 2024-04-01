@@ -1,0 +1,12 @@
+.score_count{
+    display: flex;
+    gap: 10px;
+}
+
+.wins span{
+    color: green;
+}
+
+.loses span{
+    color: red;
+}

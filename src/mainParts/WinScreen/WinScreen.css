@@ -1,0 +1,28 @@
+.resultDisplay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 100px 0;
+}
+
+.optionsWrap{
+  display: flex;
+  justify-content: center;
+}
+
+.WSwrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.WSoption__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
