@@ -1,8 +1,9 @@
-.options{
+.options {
     display: flex;
+    overflow-x: auto;
 }
 
-.option__container{
+.option__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,15 +16,15 @@
     transition: 150ms;
 }
 
-.option__container:not(:last-child){
+.option__container:not(:last-child) {
     margin-right: 75px;
 }
 
-.option__container p{
+.option__container p {
     font-weight: 600;
 }
 
-.option__container:hover{
+.option__container:hover {
     border: 0px;
     box-shadow: inset 0px 0px 0px 10px #FFB800;
 }

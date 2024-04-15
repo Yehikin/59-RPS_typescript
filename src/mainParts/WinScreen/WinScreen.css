@@ -1,4 +1,4 @@
-.resultDisplay{
+.resultDisplay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,12 +6,12 @@
   margin: 100px 0;
 }
 
-.optionsWrap{
+.optionsWrap {
   display: flex;
   justify-content: center;
 }
 
-.WSwrap{
+.WSwrap {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,10 +19,26 @@
   gap: 10px;
 }
 
-.WSoption__container{
+.WSoption__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 10px 5px;
+}
+
+.comp_pick {
+  transform: scale(-1, 1);
+}
+
+#replay {
+  background: none;
+  border: 1px #000 solid;
+
+  color: #000;
+  font-family: Roboto Mono, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+
+  padding: 15px 84px;
 }
